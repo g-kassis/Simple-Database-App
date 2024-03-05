@@ -4,17 +4,21 @@
 Implement a PostgreSQL database using the provided schema and write an application in your language of choice that connects to this database to perform specific CRUD (Create, Read, Update, Delete) operations.
 
 # Documentation
+Retrieves and displays all records from the students table.
 ```
-getAllStudents(): Retrieves and displays all records from the students table.
+getAllStudents():
 ```
+Inserts a new student record into the students table.
 ```
-addStudent(first_name, last_name, email, enrollment_date): Inserts a new student record into the students table.
+addStudent(first_name, last_name, email, enrollment_date): 
 ```
+Updates the email address for a student with the specified student_id.
 ```
-updateStudentEmail(student_id, new_email): Updates the email address for a student with the specified student_id.
+updateStudentEmail(student_id, new_email): 
 ```
+Deletes the record of the student with the specified student_id.
 ```
-deleteStudent(student_id): Deletes the record of the student with the specified student_id.
+deleteStudent(student_id): 
 ```
 
 [SQL files]()
@@ -22,9 +26,15 @@ deleteStudent(student_id): Deletes the record of the student with the specified 
 [Demo Video]()
 
 ### How To Run
+Install psycopg2 Python package:
 ```
 pip install psycopg2
+```
+Run app.py using Python3:
+```
 python3 app.py
+```
+```
 follow instructions on screen
 ```
 
