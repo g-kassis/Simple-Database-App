@@ -25,7 +25,7 @@ deleteStudent(student_id):
 <br>
 [Demo Video]()
 
-### How To Run
+# How To Run
 Install psycopg2 Python package:
 ```
 pip install psycopg2
@@ -34,9 +34,7 @@ Run app.py using Python3:
 ```
 python3 app.py
 ```
-```
-follow instructions on screen
-```
+Follow instructions on screen
 
 
 # Technologies
