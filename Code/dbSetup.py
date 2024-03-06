@@ -10,6 +10,7 @@ client = psql.cursor()
 psql.set_isolation_level(pg.extensions.ISOLATION_LEVEL_AUTOCOMMIT)
 
 
+#if database does not exist it creates it and connects to it
 try:
     #Creates database "Assignment3"
     client.execute("CREATE DATABASE assignment3")
@@ -23,6 +24,9 @@ except:
     psql = pg.connect(host = 'localhost', database = 'assignment3', user = 'postgres', password = 'postgres',)        
     client = psql.cursor()
 
+
+
+#tries to create table if it exists it drops it and re creates it
 try:
     #Creates table with first_name, last_name, email, enrollment_date columns
     client.execute("CREATE Table students(student_id SERIAL PRIMARY KEY, first_name TEXT NOT NULL, last_name TEXT NOT NULL, email TEXT NOT NULL UNIQUE, enrollment_date DATE)")
