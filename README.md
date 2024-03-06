@@ -23,7 +23,7 @@ deleteStudent(student_id):
 
 [SQL files]()
 <br>
-[Demo Video](file:///home/giovanni/Simple-Database-App.mp4)
+[Demo Video]()
 
 
 # How To Run
