@@ -21,7 +21,7 @@ Deletes the record of the student with the specified student_id.
 deleteStudent(student_id): 
 ```
 
-[SQL files]()
+
 <br>
 [Demo Video](https://drive.google.com/file/d/1fcaQ9Xo-oOSf4U2G4SXcuXqOufNY87uO/view?usp=sharing)
 
