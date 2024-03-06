@@ -23,7 +23,8 @@ deleteStudent(student_id):
 
 [SQL files]()
 <br>
-[Demo Video]()
+[Demo Video](file:///home/giovanni/Simple-Database-App.mp4)
+
 
 # How To Run
 Install psycopg2 Python package:
